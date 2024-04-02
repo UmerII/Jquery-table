@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
+
+<title>Title</title>
+</head>
+<style>
+    img{
+        height: 100px;
+        width: 100%;
+    }
+</style>
+<body>
+
+
+<div class="container mt-4">
+<table class="table" id="My-Table">
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>Image</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Hasan</td>
+        <td>20</td>
+        <td>Malir</td>
+        <td>hasanbhai@gmail.com</td>
+        <td><img src="./images/student-1.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Haris</td>
+        <td>21</td>
+        <td>Hussainabad</td>
+        <td>harisbhai@gmail.com</td>
+        <td><img src="./images/student-2.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Usman</td>
+        <td>22</td>
+        <td>ColonyGate</td>
+        <td>Usmanbhai@gmail.com</td>
+        <td><img src="./images/student-3.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Rizwan</td>
+        <td>23</td>
+        <td>StarGate</td>
+        <td>rizwanbhai@gmail.com</td>
+        <td><img src="./images/student-4.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Sohail</td>
+        <td>24</td>
+        <td>Johur</td>
+        <td>sohailbhai@gmail.com</td>
+        <td><img src="./images/student-5.jpg" alt=""></td>
+    </tr>
+   
+    <tr>
+        <td>Babar</td>
+        <td>25</td>
+        <td>Malir</td>
+        <td>babarbhai@gmail.com</td>
+        <td><img src="./images/student-6.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Shaheen</td>
+        <td>26</td>
+        <td>Hussainabad</td>
+        <td>shaheenbhai@gmail.com</td>
+        <td><img src="./images/student-7.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Khuwaja</td>
+        <td>27</td>
+        <td>ColonyGate</td>
+        <td>khuwajabhai@gmail.com</td>
+        <td><img src="./images/student-8.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Smith</td>
+        <td>28</td>
+        <td>StarGate</td>
+        <td>smithbhai@gmail.com</td>
+        <td><img src="./images/student-9.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Imran</td>
+        <td>29</td>
+        <td>Johur</td>
+        <td>imranbhai@gmail.com</td>
+        <td><img src="./images/student-10.jpg" alt=""></td>
+    </tr>
+   
+    <tr>
+        <td>Umer</td>
+        <td>30</td>
+        <td>Malir</td>
+        <td>umerbhai@gmail.com</td>
+        <td><img src="./images/student-1.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Akmal</td>
+        <td>31</td>
+        <td>Hussainabad</td>
+        <td>akmalbhai@gmail.com</td>
+        <td><img src="./images/student-2.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Uzair</td>
+        <td>32</td>
+        <td>ColonyGate</td>
+        <td>uzairbhai@gmail.com</td>
+        <td><img src="./images/student-3.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Areez</td>
+        <td>33</td>
+        <td>StarGate</td>
+        <td>areezbhai@gmail.com</td>
+        <td><img src="./images/student-4.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Muneeb</td>
+        <td>34</td>
+        <td>Johur</td>
+        <td>muneebbhai@gmail.com</td>
+        <td><img src="./images/student-5.jpg" alt=""></td>
+    </tr>
+   
+    <tr>
+        <td>Rehab</td>
+        <td>35</td>
+        <td>Malir</td>
+        <td>rehabbhai@gmail.com</td>
+        <td><img src="./images/student-6.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Zaryab</td>
+        <td>36</td>
+        <td>Hussainabad</td>
+        <td>zaryabbhai@gmail.com</td>
+        <td><img src="./images/student-7.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Ahmed</td>
+        <td>37</td>
+        <td>ColonyGate</td>
+        <td>ahmedbhai@gmail.com</td>
+        <td><img src="./images/student-8.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Furqan</td>
+        <td>38</td>
+        <td>StarGate</td>
+        <td>furqanbhai@gmail.com</td>
+        <td><img src="./images/student-9.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Shayan</td>
+        <td>39</td>
+        <td>Johur</td>
+        <td>shayanbhai@gmail.com</td>
+        <td><img src="./images/student-10.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Hamdan</td>
+        <td>40</td>
+        <td>Malir</td>
+        <td>hamdanbhai@gmail.com</td>
+        <td><img src="./images/student-1.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Ali</td>
+        <td>41</td>
+        <td>Hussainabad</td>
+        <td>alibhai@gmail.com</td>
+        <td><img src="./images/student-2.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>abdul-Rehman</td>
+        <td>42</td>
+        <td>ColonyGate</td>
+        <td>rehamnbhai@gmail.com</td>
+        <td><img src="./images/student-3.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Waqas</td>
+        <td>43</td>
+        <td>StarGate</td>
+        <td>waqasbhai@gmail.com</td>
+        <td><img src="./images/student-4.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Arham</td>
+        <td>44</td>
+        <td>Johur</td>
+        <td>arhambhai@gmail.com</td>
+        <td><img src="./images/student-5.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Rahim</td>
+        <td>45</td>
+        <td>Malir</td>
+        <td>rahimbhai@gmail.com</td>
+        <td><img src="./images/student-6.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Sehal</td>
+        <td>46</td>
+        <td>Hussainabad</td>
+        <td>sehalbhai@gmail.com</td>
+        <td><img src="./images/student-7.jpg" alt=""></td>
+    </tr>
+
+    <tr>
+        <td>Moiz</td>
+        <td>47</td>
+        <td>ColonyGate</td>
+        <td>moizbhai@gmail.com</td>
+        <td><img src="./images/student-8.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Kohli</td>
+        <td>48</td>
+        <td>StarGate</td>
+        <td>kohlibhai@gmail.com</td>
+        <td><img src="./images/student-9.jpg" alt=""></td>
+    </tr>
+    <tr>
+        <td>Viv-Richards</td>
+        <td>49</td>
+        <td>Johur</td>
+        <td>Vivbhai@gmail.com</td>
+        <td><img src="./images/student-10.jpg" alt=""></td>
+    </tr>
+   
+
+</tbody>
+</table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
+<script>
+    let table = new DataTable('#My-Table');
+    </script>
+</body>
+    
+</html>
